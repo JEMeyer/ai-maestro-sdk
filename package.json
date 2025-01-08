@@ -1,0 +1,33 @@
+{
+  "name": "ai-maestro-sdk",
+  "version": "1.0.0",
+  "description": "Facilitates calls to AI Maestro API for reservation of GPU compute as well as genAI proxying for Ollama, diffusors-fastapi-server, and stt/tts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jemeyer/ai-maestro-sdk.git"
+  },
+  "keywords": [
+    "ollama",
+    "sdk",
+    "ai",
+    "llm",
+    "diffusion",
+    "stt",
+    "tts",
+    "compute",
+    "proxy"
+  ],
+  "author": "Joe Meyer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jemeyer/ai-maestro-sdk/issues"
+  },
+  "homepage": "https://github.com/jemeyer/ai-maestro-sdk#readme",
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
