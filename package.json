@@ -2,9 +2,12 @@
   "name": "ai-maestro-sdk",
   "version": "1.0.0",
   "description": "Facilitates calls to AI Maestro API for reservation of GPU compute as well as genAI proxying for Ollama, diffusors-fastapi-server, and stt/tts.",
-  "main": "index.js",
+  "main": "dist/maestro.js",
+  "types": "dist/maestro.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "test": "echo \"No tests yet\" && exit 0",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -28,6 +31,13 @@
   },
   "homepage": "https://github.com/jemeyer/ai-maestro-sdk#readme",
   "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@types/ws": "^8.5.13",
     "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "ollama": "^0.5.11",
+    "ws": "^8.18.0"
   }
 }
